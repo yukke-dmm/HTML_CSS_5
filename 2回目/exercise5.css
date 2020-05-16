@@ -1,0 +1,143 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+}
+a{
+	/*これが入ると下線が入らなくなる。*/
+	text-decoration: none;
+}
+.clearfix::after{
+	content:"";
+	display: block;
+	clear: both;
+}
+/*header*/
+header{
+	width: 100%;
+	/*解答だとここのpadding:20px 0;*/
+	margin: 0 auto;
+	text-align: center;
+}
+.headline{
+	/*上で開けなかったスペースをここで作った*/
+	margin: 20px;
+	/*font-size 32pxらしい。そんな指定はされてないけど*/
+}
+.nav-list{
+	text-align: center;
+	padding: 15px 0;
+	margin: 0 auto;
+	border-bottom: 1px solid #848282;
+	border-top:1px solid #848282;
+}
+.nav-list-item{
+	list-style: none;
+    padding: 0 20px;
+    display: inline-block;
+}
+/*main*/
+main{
+	width: 800px;
+	/*margin:50xp auto;だけで上下５０pxにできる。確かに０いらないなw*/
+	margin: 0 auto;
+	padding: 50px 0;
+}
+.box1{
+	width: 200px;
+	height: 200px;
+	background-color: #e6ffe9;
+	float: left;
+}
+.box2{
+	width: 200px;
+	height: 200px;
+	background-color: #cbffd3;
+	float: left;
+}
+.box3{
+	width: 200px;
+	height: 200px;
+	background-color: #aeffbd;
+	float: left;
+}
+.box4{
+	width: 200px;
+	height: 200px;
+	background-color: #93ffab;
+	float: left;
+}
+.box5{
+	width: 200px;
+	height: 200px;
+	background-color: #f3ffd8;
+	float: left;
+}
+.box6{
+	width: 200px;
+	height: 200px;
+	background-color: #edffbe;
+	float: left;
+}
+.box7{
+	width: 200px;
+	height: 200px;
+	background-color: #e9ff8d;
+	float: left;
+}
+.box8{
+	width: 200px;
+	height: 200px;
+	background-color: #e4ff8d;
+	float: left;
+}
+.box9{
+	width: 200px;
+	height: 200px;
+	background-color: #d9e5ff;
+	float: left;
+}
+.box10{
+	width: 200px;
+	height: 200px;
+	background-color: #bad3ff;
+	float: left;
+}
+.box11{
+	width: 200px;
+	height: 200px;
+	background-color: #a4c6ff;
+	float: left;
+}
+.box12{
+	width: 200px;
+	height: 200px;
+	background-color: #8eb8ff;
+	float: left;
+}
+.box1{
+	width: 200px;
+	height: 200px;
+	background-color: #e6ffe9;
+	float: left;
+}
+.box1{
+	width: 200px;
+	height: 200px;
+	background-color: #e6ffe9;
+	float: left;
+}
+/*footer*/
+footer{
+	width: 100%;
+	height: 120px;
+	background-color: #848282;
+}
+.footer-text{
+	/*ここの２つはまんま上に入れていい*/
+	text-align: center;
+	line-height: 120px;
+	/*文字色だけホワイトに指定（入れ忘れ）*/
+	color: #fff;
+}
